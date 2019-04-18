@@ -36,12 +36,12 @@ To train the model, set `train = True` in *main* function on line #*262* (line #
 
 ## Performance
 Without Data augmentation:
--	Train accuracy = 90.76388888888889 %
--	Validation accuracy = 83.33333333333334 %
+-	Train accuracy = 90.76389 %
+-	Validation accuracy = 83.3334 %
 -	Test accuracy = 84.75 %
 
 With Data augmentation:
 -	Train accuracy = 91.875 %
--	Validation accuracy = 83.33333333333334 %
+-	Validation accuracy = 83.3334 %
 -	Test accuracy = 82.25 %
 
