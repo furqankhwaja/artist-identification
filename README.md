@@ -6,10 +6,10 @@ http://public.skinio.com/ml-internship-challenge/artist_dataset.zip
 
 ## How to run
 Download the dataset from the link above. <br />
-NOTE: There is a .zip file in the 'Picasso' folder which must be removed before the .py file is run <br />
-NOTE: Files followed by '2' are for the model without data augmentation. eg: `model_best2.hdf5` is the model made *without* data augmentation. `model_best.hdf5` is the model made *with* data augmentation.
+NOTE: There is a .zip file in the 'Picasso' folder which must be removed before the .py file is run 
 
-To run the code, execute the following line in terminal: `python artist_identification.py` 
+To run the code, execute the following line in terminal: `python artist_identification.py` <br />
+NOTE: Files followed by '2' are for the model without data augmentation. eg: `model_best2.hdf5` is the model made *without* data augmentation. `model_best.hdf5` is the model made *with* data augmentation.
 
 To train the model, set `train = True` in *main* function on line #*262* (line # might change in future commits).
 
