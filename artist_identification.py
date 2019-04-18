@@ -297,7 +297,7 @@ if __name__ == "__main__":
         callbacks = [EarlyStopping(patience=5, verbose=1),
                      ReduceLROnPlateau(factor=0.1, patience=3,
                                        min_lr=0.000001, verbose=1),
-                     ModelCheckpoint('model_skinIO.hdf5', verbose=1,
+                     ModelCheckpoint('model_best.hdf5', verbose=1,
                                      save_best_only=True, save_weights_only=True)]
 
         # Train model
@@ -327,7 +327,7 @@ if __name__ == "__main__":
             X_test, y_test, batch_size=batch_size, im_height=im_height, im_width=im_width, train=False)
 
         # Load model weights
-        model.load_weights('model_skinIO.hdf5')
+        model.load_weights('model_best.hdf5')
 
         # Predict
         print('\nPredicting on Training Data...')
