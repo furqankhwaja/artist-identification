@@ -27,7 +27,7 @@ To train the model, set `train = True` on line _262_.
 - - model_best.hdf5 <br />
 
 
-## Required packages
+### Required packages
 1. Keras
 2. numpy
 3. opencv
