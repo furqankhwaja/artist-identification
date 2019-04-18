@@ -1,5 +1,5 @@
 # Artist Identification
-Identify paintings of Picasso and vanGogh
+Identify whether a work of art was created by Pablo Picasso or Vincent van Gogh. The dataset provided has a total of 2,000 images. Close to half of the images were created by Picasso and the other half were created by van Gogh.
 
 ### Link to dataset
 http://public.skinio.com/ml-internship-challenge/artist_dataset.zip
