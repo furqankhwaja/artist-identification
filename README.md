@@ -10,7 +10,7 @@ NOTE: There is a .zip file in the 'Picasso' folder which must be removed before 
 
 To run the code, execute the following line in terminal: `python artist_identification.py` 
 
-To train the model, set `train = True` in *main* function on line #*262* (#line might change in future commits).
+To train the model, set `train = True` in *main* function on line #*262* (line # might change in future commits).
 
 ### Layout of files in directory
 - Main directory <br />
