@@ -25,3 +25,10 @@ To train the model, set `train = True` on line _262_.
 - - y_valid.npy <br />
 - - y_test.npy <br />
 - - model_best.hdf5 <br />
+
+
+### Required packages
+1. Keras
+2. numpy
+3. opencv
+4. tqdm
