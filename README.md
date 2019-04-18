@@ -38,7 +38,8 @@ To train the model, set `train = True` in *main* function on line #*262* (line #
 Without Data augmentation:
 -	Training accuracy = 
 -	Validation Accuracy = 
--	Testing Accuracy = <br />
+-	Testing Accuracy = 
+
 With Data augmentation:
 -	Training accuracy = 
 -	Validation Accuracy = 
