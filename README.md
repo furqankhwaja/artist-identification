@@ -4,7 +4,7 @@ Identify paintings of Picasso and vanGogh
 ### Link to dataset
 http://public.skinio.com/ml-internship-challenge/artist_dataset.zip
 
-### How to run
+## How to run
 Download the dataset from the link above. <br />
 NOTE: There is a .zip file in the 'Picasso' folder which must be removed before the .py file is run
 
@@ -27,7 +27,7 @@ To train the model, set `train = True` on line _262_.
 - - model_best.hdf5 <br />
 
 
-### Required packages
+## Required packages
 1. Keras
 2. numpy
 3. opencv
