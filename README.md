@@ -33,3 +33,13 @@ To train the model, set `train = True` in *main* function on line #*262* (line #
 2. numpy
 3. opencv
 4. tqdm
+
+## Performance
+Without Data augmentation:
+-	Training accuracy = 
+-	Validation Accuracy = 
+-	Testing Accuracy = 
+With Data augmentation:
+-	Training accuracy = 
+-	Validation Accuracy = 
+-	Testing Accuracy = 
