@@ -14,18 +14,18 @@ NOTE: Files followed by '2' are for the model without data augmentation. eg: `mo
 To train the model, set `train = True` in *main* function on line #*262* (line # might change in future commits).
 
 ### Layout of files in directory
-- Main directory <br />
-- - artist_dataset <br />
-- - -  Picasso <br />
-- - - vanGogh <br />
-- - artist_identification.py <br />
-- - X_train.npy <br />
-- - X_valid.npy <br />
-- - X_test.npy <br />
-- - y_train.npy <br />
-- - y_valid.npy <br />
-- - y_test.npy <br />
-- - model_best.hdf5 <br />
+|__ Main directory <br />
+&nbsp; &nbsp; &nbsp;    |__ artist_dataset <br />
+&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;          |__  Picasso <br />
+&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;         |__ vanGogh <br />
+&nbsp; &nbsp; &nbsp;    |__ artist_identification.py <br />
+&nbsp; &nbsp; &nbsp;    |__ X_train.npy <br />
+&nbsp; &nbsp; &nbsp;    |__ X_valid.npy <br />
+&nbsp; &nbsp; &nbsp;    |__ X_test.npy <br />
+&nbsp; &nbsp; &nbsp;    |__ y_train.npy <br />
+&nbsp; &nbsp; &nbsp;    |__ y_valid.npy <br />
+&nbsp; &nbsp; &nbsp;    |__ y_test.npy <br />
+&nbsp; &nbsp; &nbsp;    |__ model_best.hdf5 <br />
 
 
 ### Required packages
